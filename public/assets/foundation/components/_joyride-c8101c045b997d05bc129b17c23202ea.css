@@ -1,0 +1,347 @@
+/* line 316, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-version {
+  font-family: "/5.3.1/";
+}
+
+/* line 320, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-small {
+  font-family: "/only screen/";
+  width: 0em;
+}
+
+/* line 325, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-medium {
+  font-family: "/only screen and (min-width:40.063em)/";
+  width: 40.063em;
+}
+
+/* line 330, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-large {
+  font-family: "/only screen and (min-width:64.063em)/";
+  width: 64.063em;
+}
+
+/* line 335, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-xlarge {
+  font-family: "/only screen and (min-width:90.063em)/";
+  width: 90.063em;
+}
+
+/* line 340, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-xxlarge {
+  font-family: "/only screen and (min-width:120.063em)/";
+  width: 120.063em;
+}
+
+/* line 345, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-data-attribute-namespace {
+  font-family: false;
+}
+
+/* line 352, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 357, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 362, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+html,
+body {
+  font-size: 100%;
+}
+
+/* line 365, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+body {
+  background: white;
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+}
+
+/* line 378, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+a:hover {
+  cursor: pointer;
+}
+
+/* line 381, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 383, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 389, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+#map_canvas img,
+#map_canvas embed,
+#map_canvas object,
+.map_canvas img,
+.map_canvas embed,
+.map_canvas object {
+  max-width: none !important;
+}
+
+/* line 394, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.left {
+  float: left !important;
+}
+
+/* line 395, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.right {
+  float: right !important;
+}
+
+/* line 168, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 169, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 397, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.hide {
+  display: none;
+}
+
+/* line 403, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 406, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 416, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+textarea {
+  height: auto;
+  min-height: 50px;
+}
+
+/* line 419, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+select {
+  width: 100%;
+}
+
+/* Foundation Joyride */
+/* line 48, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-list {
+  display: none;
+}
+
+/* Default styles for the container */
+/* line 51, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-tip-guide {
+  display: none;
+  position: absolute;
+  background: #333333;
+  color: white;
+  z-index: 101;
+  top: 0;
+  left: 2.5%;
+  font-family: inherit;
+  font-weight: normal;
+  width: 95%;
+}
+
+/* line 64, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.lt-ie9 .joyride-tip-guide {
+  max-width: 800px;
+  left: 50%;
+  margin-left: -400px;
+}
+
+/* line 70, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-content-wrapper {
+  width: 100%;
+  padding: 1.125rem 1.25rem 1.5rem;
+}
+/* line 75, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-content-wrapper .button {
+  margin-bottom: 0 !important;
+}
+
+/* Add a little css triangle pip, older browser just miss out on the fanciness of it */
+/* line 80, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-tip-guide .joyride-nub {
+  display: block;
+  position: absolute;
+  left: 22px;
+  width: 0;
+  height: 0;
+  border: 10px solid #333333;
+}
+/* line 88, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-tip-guide .joyride-nub.top {
+  border-top-style: solid;
+  border-color: #333333;
+  border-top-color: transparent !important;
+  border-left-color: transparent !important;
+  border-right-color: transparent !important;
+  top: -20px;
+}
+/* line 96, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-tip-guide .joyride-nub.bottom {
+  border-bottom-style: solid;
+  border-color: #333333 !important;
+  border-bottom-color: transparent !important;
+  border-left-color: transparent !important;
+  border-right-color: transparent !important;
+  bottom: -20px;
+}
+/* line 105, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-tip-guide .joyride-nub.right {
+  right: -20px;
+}
+/* line 106, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-tip-guide .joyride-nub.left {
+  left: -20px;
+}
+
+/* Typography */
+/* line 116, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-tip-guide h1,
+.joyride-tip-guide h2,
+.joyride-tip-guide h3,
+.joyride-tip-guide h4,
+.joyride-tip-guide h5,
+.joyride-tip-guide h6 {
+  line-height: 1.25;
+  margin: 0;
+  font-weight: bold;
+  color: white;
+}
+
+/* line 122, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-tip-guide p {
+  margin: 0 0 1.125rem 0;
+  font-size: 0.875rem;
+  line-height: 1.3;
+}
+
+/* line 128, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-timer-indicator-wrap {
+  width: 50px;
+  height: 3px;
+  border: solid 1px #555555;
+  position: absolute;
+  right: 1.0625rem;
+  bottom: 1rem;
+}
+
+/* line 136, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-timer-indicator {
+  display: block;
+  width: 0;
+  height: inherit;
+  background: #666666;
+}
+
+/* line 143, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-close-tip {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  color: #777777 !important;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: .5 !important;
+}
+/* line 154, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-close-tip:hover, .joyride-close-tip:focus {
+  color: #eee !important;
+}
+
+/* line 157, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-modal-bg {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  display: none;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+/* line 170, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-expose-wrapper {
+  background-color: #ffffff;
+  position: absolute;
+  border-radius: 3px;
+  z-index: 102;
+  box-shadow: 0 0 15px #ffffff;
+}
+
+/* line 178, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-expose-cover {
+  background: transparent;
+  border-radius: 3px;
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+}
+
+/* Styles for screens that are at least 768px; */
+@media only screen and (min-width: 40.063em) {
+  /* line 190, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+  .joyride-tip-guide {
+    width: 300px;
+    left: inherit;
+  }
+  /* line 192, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+  .joyride-tip-guide .joyride-nub.bottom {
+    border-color: #333333 !important;
+    border-bottom-color: transparent !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+    bottom: -20px;
+  }
+  /* line 199, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+  .joyride-tip-guide .joyride-nub.right {
+    border-color: #333333 !important;
+    border-top-color: transparent !important;
+    border-right-color: transparent !important;
+    border-bottom-color: transparent !important;
+    top: 22px;
+    left: auto;
+    right: -20px;
+  }
+  /* line 207, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+  .joyride-tip-guide .joyride-nub.left {
+    border-color: #333333 !important;
+    border-top-color: transparent !important;
+    border-left-color: transparent !important;
+    border-bottom-color: transparent !important;
+    top: 22px;
+    left: -20px;
+    right: auto;
+  }
+}

@@ -7,7 +7,7 @@ gem "cocoon"
 gem 'omniauth-facebook'
 gem 'counter_culture', '~> 0.1.23'
 
-gem 'foundation-rails', '5.4.3.1'
+gem 'foundation-rails', '5.3.1.0'
 gem 'devise'
 
 gem 'redis', '~> 3.0.1'

@@ -1,0 +1,167 @@
+/* line 316, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-version {
+  font-family: "/5.3.1/";
+}
+
+/* line 320, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-small {
+  font-family: "/only screen/";
+  width: 0em;
+}
+
+/* line 325, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-medium {
+  font-family: "/only screen and (min-width:40.063em)/";
+  width: 40.063em;
+}
+
+/* line 330, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-large {
+  font-family: "/only screen and (min-width:64.063em)/";
+  width: 64.063em;
+}
+
+/* line 335, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-xlarge {
+  font-family: "/only screen and (min-width:90.063em)/";
+  width: 90.063em;
+}
+
+/* line 340, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-xxlarge {
+  font-family: "/only screen and (min-width:120.063em)/";
+  width: 120.063em;
+}
+
+/* line 345, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-data-attribute-namespace {
+  font-family: false;
+}
+
+/* line 352, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 357, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 362, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+html,
+body {
+  font-size: 100%;
+}
+
+/* line 365, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+body {
+  background: white;
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+}
+
+/* line 378, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+a:hover {
+  cursor: pointer;
+}
+
+/* line 381, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 383, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 389, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+#map_canvas img,
+#map_canvas embed,
+#map_canvas object,
+.map_canvas img,
+.map_canvas embed,
+.map_canvas object {
+  max-width: none !important;
+}
+
+/* line 394, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.left {
+  float: left !important;
+}
+
+/* line 395, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.right {
+  float: right !important;
+}
+
+/* line 168, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 169, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 397, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.hide {
+  display: none;
+}
+
+/* line 403, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 406, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 416, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+textarea {
+  height: auto;
+  min-height: 50px;
+}
+
+/* line 419, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+select {
+  width: 100%;
+}
+
+/* line 18, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_magellan.scss */
+[data-magellan-expedition], [data-magellan-expedition-clone] {
+  background: white;
+  z-index: 50;
+  min-width: 100%;
+  padding: 10px;
+}
+/* line 24, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_magellan.scss */
+[data-magellan-expedition] .sub-nav, [data-magellan-expedition-clone] .sub-nav {
+  margin-bottom: 0;
+}
+/* line 26, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_magellan.scss */
+[data-magellan-expedition] .sub-nav dd, [data-magellan-expedition-clone] .sub-nav dd {
+  margin-bottom: 0;
+}
+/* line 27, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_magellan.scss */
+[data-magellan-expedition] .sub-nav a, [data-magellan-expedition-clone] .sub-nav a {
+  line-height: 1.8em;
+}

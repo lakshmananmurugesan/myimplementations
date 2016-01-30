@@ -1,0 +1,14 @@
+/* line 3, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/movies.css.scss */
+.movies-grid .movie-card {
+  width: 220px;
+  margin: auto;
+}
+/* line 6, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/movies.css.scss */
+.movies-grid .movie-card .poster img {
+  height: 325px;
+  width: 100%;
+}
+/* line 11, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/movies.css.scss */
+.movies-grid .movie-card .movie-info .title {
+  height: 4em;
+}

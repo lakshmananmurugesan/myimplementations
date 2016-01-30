@@ -1,0 +1,73 @@
+/* line 3, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_toolbar.scss */
+.toolbar {
+  background: #333;
+  width: 100%;
+  font-size: 0;
+  display: inline-block;
+}
+/* line 10, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_toolbar.scss */
+.toolbar.label-bottom .tab .tab-content i, .toolbar.label-bottom .tab .tab-content img {
+  margin-bottom: 10px;
+}
+/* line 14, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_toolbar.scss */
+.toolbar.label-right .tab .tab-content i, .toolbar.label-right .tab .tab-content img {
+  margin-right: 10px;
+  display: inline-block;
+}
+/* line 15, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_toolbar.scss */
+.toolbar.label-right .tab .tab-content label {
+  display: inline-block;
+}
+/* line 18, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_toolbar.scss */
+.toolbar.vertical.label-right .tab .tab-content {
+  text-align: left;
+}
+/* line 22, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_toolbar.scss */
+.toolbar.vertical {
+  height: 100%;
+  width: auto;
+}
+/* line 26, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_toolbar.scss */
+.toolbar.vertical .tab {
+  width: auto;
+  margin: auto;
+  float: none;
+}
+/* line 33, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_toolbar.scss */
+.toolbar .tab {
+  text-align: center;
+  width: 25%;
+  margin: 0 auto;
+  display: block;
+  padding: 20px;
+  float: left;
+}
+/* line 41, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_toolbar.scss */
+.toolbar .tab:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* line 47, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_toolbar.scss */
+.toolbar .tab-content {
+  font-size: 16px;
+  text-align: center;
+}
+/* line 51, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_toolbar.scss */
+.toolbar .tab-content label {
+  color: #ccc;
+}
+/* line 53, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_toolbar.scss */
+.toolbar .tab-content i {
+  font-size: 30px;
+  display: block;
+  margin: 0 auto;
+  color: #ccc;
+  vertical-align: middle;
+}
+/* line 61, /home/ameex/.rvm/gems/ruby-2.1.2/gems/foundation-rails-5.3.1.0/vendor/assets/stylesheets/foundation/components/_toolbar.scss */
+.toolbar .tab-content img {
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+}

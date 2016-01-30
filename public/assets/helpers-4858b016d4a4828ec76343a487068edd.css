@@ -1,0 +1,364 @@
+/* line 3, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.full-min-height {
+  min-height: 74%;
+}
+
+/* line 5, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.ell {
+  overflow: hidden;
+}
+
+/* line 6, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.clear {
+  clear: both;
+}
+
+/* line 8, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.glassy-bg {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* line 9, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.primary-bg {
+  background-color: #B18806;
+}
+
+/* line 13, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.block {
+  display: block;
+}
+
+/* line 14, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.inline-block {
+  display: inline-block;
+}
+
+/* line 17, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.radius-box {
+  border-radius: 10px;
+}
+
+/* line 21, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.radius-ls {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+/* line 25, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.radius-rs {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+/* line 30, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.radius-l1 {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+/* line 34, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.radius-r1 {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* line 40, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.m0 {
+  margin: 0;
+}
+
+/* line 41, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.mt0 {
+  margin-top: 0;
+}
+
+/* line 42, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.mr0 {
+  margin-right: 0;
+}
+
+/* line 43, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.mb0 {
+  margin-bottom: 0;
+}
+
+/* line 44, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.ml0 {
+  margin-left: 0;
+}
+
+/* line 46, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.ms {
+  margin: 0.25em;
+}
+
+/* line 47, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.mts {
+  margin-top: 0.25em;
+}
+
+/* line 48, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.mbs {
+  margin-bottom: 0.25em;
+}
+
+/* line 49, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.mrs {
+  margin-right: 0.25em;
+}
+
+/* line 50, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.mls {
+  margin-left: 0.25em;
+}
+
+/* line 52, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.mm {
+  margin: 0.5em;
+}
+
+/* line 53, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.mtm {
+  margin-top: 0.5em;
+}
+
+/* line 54, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.mbm {
+  margin-bottom: 0.5em;
+}
+
+/* line 55, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.mrm {
+  margin-right: 0.5em;
+}
+
+/* line 56, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.mlm {
+  margin-left: 0.5em;
+}
+
+/* line 58, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.m1 {
+  margin: 1.5em;
+}
+
+/* line 59, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.mt1 {
+  margin-top: 1.5em;
+}
+
+/* line 60, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.mb1 {
+  margin-bottom: 1.5em;
+}
+
+/* line 61, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.mr1 {
+  margin-right: 1.5em;
+}
+
+/* line 62, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.ml1 {
+  margin-left: 1.5em;
+}
+
+/* line 64, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.m2 {
+  margin: 3em;
+}
+
+/* line 65, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.mt2 {
+  margin-top: 3em;
+}
+
+/* line 66, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.mb2 {
+  margin-bottom: 3em;
+}
+
+/* line 67, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.mr2 {
+  margin-right: 3em;
+}
+
+/* line 68, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.ml2 {
+  margin-left: 3em;
+}
+
+/* line 71, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.p0 {
+  padding: 0;
+}
+
+/* line 72, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.pt0 {
+  padding-top: 0;
+}
+
+/* line 73, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.pr0 {
+  padding-right: 0;
+}
+
+/* line 74, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.pb0 {
+  padding-bottom: 0;
+}
+
+/* line 75, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.pl0 {
+  padding-left: 0;
+}
+
+/* line 77, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.ps {
+  padding: 0.25em;
+}
+
+/* line 78, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.pts {
+  padding-top: 0.25em;
+}
+
+/* line 79, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.pbs {
+  padding-bottom: 0.25em;
+}
+
+/* line 80, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.prs {
+  padding-right: 0.25em;
+}
+
+/* line 81, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.pls {
+  padding-left: 0.25em;
+}
+
+/* line 83, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.pm {
+  padding: 0.5em;
+}
+
+/* line 84, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.ptm {
+  padding-top: 0.5em;
+}
+
+/* line 85, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.pbm {
+  padding-bottom: 0.5em;
+}
+
+/* line 86, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.prm {
+  padding-right: 0.5em;
+}
+
+/* line 87, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.plm {
+  padding-left: 0.5em;
+}
+
+/* line 89, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.p1 {
+  padding: 1em;
+}
+
+/* line 90, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.pt1 {
+  padding-top: 1em;
+}
+
+/* line 91, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.pr1 {
+  padding-right: 1em;
+}
+
+/* line 92, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.pb1 {
+  padding-bottom: 1em;
+}
+
+/* line 93, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.pl1 {
+  padding-left: 1em;
+}
+
+/* line 95, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.p2 {
+  padding: 2em;
+}
+
+/* line 96, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.pt2 {
+  padding-top: 2em;
+}
+
+/* line 97, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.pr2 {
+  padding-right: 2em;
+}
+
+/* line 98, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.pb2 {
+  padding-bottom: 2em;
+}
+
+/* line 99, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.pl2 {
+  padding-left: 2em;
+}
+
+/* line 102, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.pads {
+  padding: 0.25em;
+}
+
+/* line 105, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.padm {
+  padding: 0.5em;
+}
+
+/* line 108, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.padl {
+  padding: 1em;
+}
+
+/* line 111, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.padsx {
+  padding-left: .25em;
+  padding-right: .25em;
+}
+
+/* line 117, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.padmx {
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+/* line 123, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.padlx {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/* line 129, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.padsy {
+  padding-top: .25em;
+  padding-bottom: .25em;
+}
+
+/* line 135, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.padmy {
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+/* line 141, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/helpers.scss */
+.padly {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}

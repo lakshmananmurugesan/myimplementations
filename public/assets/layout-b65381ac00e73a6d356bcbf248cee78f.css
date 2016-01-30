@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'gotham-rounded';
+  src: url(gotham-rounded-medium.otf);
+}
+
+/* line 10, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/layout.css.scss */
+body {
+  background-image: url(body_bg.png);
+  background-position: center;
+  color: #fff;
+}
+
+/* line 18, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/layout.css.scss */
+.title-area a {
+  padding: 0 !important;
+}
+/* line 19, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/layout.css.scss */
+.title-area i {
+  font-size: 30px;
+  position: relative;
+  top: 2px;
+}
+
+/* line 27, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/layout.css.scss */
+.top-bar-section ul li {
+  background: transparent;
+}
+
+/* line 30, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/layout.css.scss */
+.form-container {
+  padding: 3% 3%;
+}
+/* line 32, /home/ameex/RubymineProjects/myimplementations/app/assets/stylesheets/layout.css.scss */
+.form-container .switch > div {
+  position: relative;
+  top: -5px;
+}
