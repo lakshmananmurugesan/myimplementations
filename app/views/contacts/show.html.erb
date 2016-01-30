@@ -1,0 +1,25 @@
+<span class="show"><h2>Contact Detail</h2></span><hr/>
+<table class="tg">
+  <tr>
+      <td class="tg-a6ba">First name</td>
+    <td class="tg-a6ba"><%= @contact.firstname%></td>
+  </tr>
+  <tr>
+      <td class="tg-a6ba">Last name</td>
+    <td class="tg-a6ba"><%= @contact.lastname%></td>
+  </tr>
+  <tr>
+    <td class="tg-a6ba">Mobile No</td>
+    <td class="tg-a6ba"><%= @contact.mno%></td>
+  </tr>
+  <tr>
+    <td class="tg-a6ba">Email_Id</td>
+    <td class="tg-a6ba"><%= @contact.emailid%></td>
+  </tr>
+  <tr>
+    <td class="tg-fwcs"><%= link_to 'Destroy', contact_path,
+                    method: :delete, data: { confirm: 'Are you sure?' },:class => "blackcolor" %></td>
+    <td class="tg-fwcs"><%= link_to 'Back', contacts_path, :class => "blackcolor"  %></td>
+    <td class="tg-fwcs"><%= link_to 'Edit', edit_contact_path(@contact), :class => "blackcolor" %></td>
+  </tr>
+</table>

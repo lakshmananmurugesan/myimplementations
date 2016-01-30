@@ -1,0 +1,36 @@
+<div class="row">
+  <nav class="top-bar colum" data-topbar>
+
+    <ul class="title-are">
+      <li class="nam">
+        <h1>
+          <a href="/movies">
+            <i class="fi-play-video"></i> MovieStore
+          </a>
+        </h1>
+      </li>
+      <li class="toggle-topbar"><a href="#"><span>Menu</span></a></li>
+    </ul>
+
+    <section class="top-bar-sectio">
+
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <%if signed_in?%>
+            <li>
+              <%= link_to cart_path do%>
+                  <i class="fi-shopping-cart"></i> My Cart (<span class="cart-count"><%=current_user.cart_count%></span>)
+              <%end%>
+            </li>
+            <li><%=link_to current_user.email, edit_user_registration_path, class: "blackcolorbold"%></li>
+            <li><%=link_to "Logout", destroy_user_session_path, method: :delete, class: "blackcolorbold"%></li>
+        <%else%>
+            <li><%=link_to "Register", new_user_registration_path, class: "blackcolorbold" %></li>
+            <li><%=link_to "Login", new_user_session_path, class: "blackcolorbold"%></li>
+        <%end%>
+      </ul>
+
+    </section>
+
+  </nav>
+</div>

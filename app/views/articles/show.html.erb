@@ -1,0 +1,39 @@
+<div class="container">
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Article name:</strong>
+  <%= @article.article_name %>
+</p>
+
+
+
+<h2>Add A Book To Article:</h2>
+<%= form_for([@article, @article.books.build]) do |f| %>
+    <p>
+      <%= f.label :Enter_Book_Name %><br>
+      <%= f.text_field :book_name %>
+    </p>
+    <p>
+      <%= f.submit %>
+    </p>
+<% end %>
+
+
+
+<h2>Add A Section To Article:</h2>
+<%= form_for([@article, @article.sections.build]) do |f| %>
+    <p>
+      <%= f.label :Enter_Section_Name %><br>
+      <%= f.text_field :section_name %>
+    </p>
+    <p>
+      <%= f.submit %>
+    </p>
+<% end %>
+
+
+
+<%= link_to 'Edit', edit_article_path(@article) %> |
+<%= link_to 'Back', articles_path %>
+</div>

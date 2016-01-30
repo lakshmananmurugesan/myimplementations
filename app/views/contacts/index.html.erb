@@ -1,0 +1,36 @@
+<body align="center">
+<h1>Contact book</h1>
+<%= link_to "Add new Contact", new_contact_path, class: "blackcolor" %><br/>
+
+
+<%= form_tag contacts_path,:method => "get" do %>
+       	<p>
+       	<%= text_field_tag :search, params[:search],class: "input-width",placeholder: "Search contact" %><br>
+       	<%= submit_tag :"search", :name => nil %>
+       	</p>
+<% end %>
+
+<% if @contact.count > 0 %>
+ <h2>List of Contact Details</h2><br>
+<% end %>
+<% @contact.each do |contact| %>
+
+ <table width="600" border=2 align="center" class="tg" >
+ <tr>
+    <th class="tg-iu59" align="center"><%= link_to contact.firstname+" "+contact.lastname, contact_path(contact), :class => "blackcolor" %> </th>
+   <th></th>
+  </tr>
+  <tr>
+    <td class="tg-031e">Gender</td>
+    <td class="tg-031e">&nbsp&nbsp<%= contact.gender %></td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Email</td>
+    <td class="tg-031e">&nbsp&nbsp<%= contact.emailid %></td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Phone</td>
+    <td class="tg-031e">&nbsp&nbsp<%= contact.mno %></td>
+  </tr>
+ 
+</table><% end %></body>

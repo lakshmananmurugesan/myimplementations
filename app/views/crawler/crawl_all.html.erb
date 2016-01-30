@@ -1,0 +1,38 @@
+<style>
+    body {background-color:lightgrey;text-align:center}
+    h1   {color:blue}
+    p    {color:green}
+</style>
+<body><h1>Crawling Sites</h1><p>Sample input format => http://www.ameexusa.com</p><%= form_tag crawler_crawl_all_path,:method => "get" do %>
+       	<p>
+       	<%= text_field_tag :crawl, params[:crawl],class: "input-width" %><br/>
+       	<%= submit_tag :"crawl", :name => nil %>
+       	</p>
+<% end %>
+
+<%= @errormsg %>
+<p>Crawling time taken depends on the site.<br/>
+
+<% if !$resultView.empty? %>
+<div class="container crawl">
+  <table>
+    <thead>
+    <tr>
+      <th>Link</th>
+    </tr>
+    </thead>
+
+    <tbody>
+
+        <% arr = $resultView.split(',') %>
+        <% arr.each do |item| %>
+        <tr>
+          <td><%= item %></td>
+        </tr>
+        <% end %>
+
+    </tbody>
+  </table>
+
+</div>
+<% end %>

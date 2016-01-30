@@ -1,0 +1,26 @@
+<div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="#">Shared Todo App</a>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="span4">
+      <p>Type out ur todo here</p>
+      
+ <%= form_tag("/todos/add", :method=>"post" ) do %>
+  <%= text_field_tag :todo_text, nil, :class => 'search-box', :required => true %>   
+  <%= submit_tag("Add todo", :class=>"btn") %>
+<% end %>
+      <div class="well">
+        <% @todo_items.each do |t| %>
+          <li><%=t.todo_item %> <%= link_to "Done", todo_path(t), class: "blackcolorboldsmall",
+              method: :delete,
+              data: { confirm: 'Are you Done this?' } %></li>
+        <% end %>
+      </div> <!-- well -->
+    </div> <!-- span4 -->
+  </div> <!-- row -->
+</div> <!-- container -->
+
