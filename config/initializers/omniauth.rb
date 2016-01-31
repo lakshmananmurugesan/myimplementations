@@ -1,5 +1,5 @@
 Rails.application.config.middleware.use OmniAuth::Builder do
   provider  :facebook,
-            1108835329141038, '8631aaf832934c2f1f0c0b8c240dee17',
+            492804177511578, '987f9974f23df69d4e03bb0d35f0ef73',
             scope: 'public_profile', display: 'page', image_size: 'square'
 end

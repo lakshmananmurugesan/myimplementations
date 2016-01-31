@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
 
-  devise_for :musers
   resources :myimplementation
   root 'myimplementation#index'
 
@@ -19,21 +18,6 @@ Rails.application.routes.draw do
   get '/sign_out', to: 'sessions#destroy', as: :sign_out
   resources :votes, only: [:create]
   resources :users, only: [:show]
-
-
-  get 'transactions/new'
-
-  get 'carts/show'
-
-  #devise_for :musers, path_names: { sign_in: 'movie-login', sign_out: 'movie-logout', sign_up: 'movie-register' }
-  resources :movies, only: [:show, :index]
-
-  resource :cart, only: [:show] do
-    put 'add/:movie_id', to: 'carts#add', as: :add_to
-    put 'remove/:movie_id', to: 'carts#remove', as: :remove_from
-  end
-
-  resources :transactions, only: [:new, :create]
 
 
   resources :articles do
