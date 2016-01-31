@@ -9,6 +9,7 @@ gem 'counter_culture', '~> 0.1.23'
 
 gem 'foundation-rails', '5.3.1.0'
 gem 'devise'
+gem 'rails_12factor'
 
 gem 'redis', '~> 3.0.1'
 gem 'hiredis', '~> 0.4.5'
