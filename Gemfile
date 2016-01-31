@@ -11,6 +11,9 @@ gem 'foundation-rails', '5.3.1.0'
 gem 'devise'
 gem 'rails_12factor'
 
+gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
+gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
+
 gem 'redis', '~> 3.0.1'
 gem 'hiredis', '~> 0.4.5'
 
