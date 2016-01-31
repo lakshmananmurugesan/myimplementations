@@ -12,13 +12,13 @@
     <%end%>
   </h3>
   <p class="label movie-label radius mb1">
-    <%= (current_user && current_user.purchase?(@movie)) ? "Purchased" : "$#{@movie.price}" %>
+    <%= (current_muser && current_muser.purchase?(@movie)) ? "Purchased" : "$#{@movie.price}" %>
   </p>
 
   <p><%= @movie.description %></p>
 
-  <%if signed_in?%>
-      <%if current_user.purchase? @movie %>
+  <%if current_muser %>
+      <%if current_muser.purchase? @movie %>
           <div class="flex-video">
             <iframe width="100%" height="" src="<%= @movie.video_url %>" frameborder="0" allowfullscreen></iframe>
           </div>

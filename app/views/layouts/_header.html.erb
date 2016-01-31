@@ -16,17 +16,17 @@
 
       <!-- Right Nav Section -->
       <ul class="right">
-        <%if signed_in?%>
+        <%if current_muser %>
             <li>
               <%= link_to cart_path do%>
-                  <i class="fi-shopping-cart"></i> My Cart (<span class="cart-count"><%=current_user.cart_count%></span>)
+                  <i class="fi-shopping-cart"></i> My Cart (<span class="cart-count"><%=current_muser.cart_count%></span>)
               <%end%>
             </li>
-            <li><%=link_to current_user.email, edit_user_registration_path, class: "blackcolorbold"%></li>
-            <li><%=link_to "Logout", destroy_user_session_path, method: :delete, class: "blackcolorbold"%></li>
+            <li><%=link_to current_user.email, edit_muser_registration_path, class: "blackcolorbold"%></li>
+            <li><%=link_to "Logout", destroy_muser_session_path, method: :delete, class: "blackcolorbold"%></li>
         <%else%>
-            <li><%=link_to "Register", new_user_registration_path, class: "blackcolorbold" %></li>
-            <li><%=link_to "Login", new_user_session_path, class: "blackcolorbold"%></li>
+            <li><%=link_to "Register", new_muser_registration_path, class: "blackcolorbold" %></li>
+            <li><%=link_to "Login", new_muser_session_path, class: "blackcolorbold"%></li>
         <%end%>
       </ul>
 

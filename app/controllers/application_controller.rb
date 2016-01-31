@@ -8,6 +8,10 @@ class ApplicationController < ActionController::Base
     @current_user ||= Polluser.find_by(id: cookies[:user_id]) if cookies[:user_id]
   end
 
+  def current_muser
+    @current_muser =  Muser.find_by(id: cookies[:user_id]) if cookies[:user_id]
+  end
+
   helper_method :current_user
 
   private

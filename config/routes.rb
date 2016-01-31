@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  devise_for :musers
   resources :myimplementation
   root 'myimplementation#index'
 
@@ -24,7 +25,7 @@ Rails.application.routes.draw do
 
   get 'carts/show'
 
-  devise_for :users, path_names: { sign_in: 'login', sign_out: 'logout', sign_up: 'register' }
+  #devise_for :musers, path_names: { sign_in: 'movie-login', sign_out: 'movie-logout', sign_up: 'movie-register' }
   resources :movies, only: [:show, :index]
 
   resource :cart, only: [:show] do

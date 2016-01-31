@@ -1,13 +1,8 @@
-class MoviesController < ApplicationController
-  
-  def index
-    @movies = Movie.all
-  end
-
-  def show
-    @movie = Movie.find(params[:id])
-    @cart_action = @movie.cart_action current_user.try :id
-  end
+class Muser < ActiveRecord::Base
+  # Include default devise modules. Others available are:
+  # :confirmable, :lockable, :timeoutable and :omniauthable
+  devise :database_authenticatable, :registerable,
+         :recoverable, :rememberable, :trackable, :validatable
 
   def cart_count
     $redis.scard "cart#{id}"
@@ -40,6 +35,4 @@ class MoviesController < ApplicationController
   def has_payment_info?
     braintree_customer_id
   end
-
-
 end
